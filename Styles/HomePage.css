@@ -172,7 +172,7 @@ article {
 }
 
 article #ourVision {
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 article #ourVision h2 {
@@ -189,6 +189,7 @@ article div {
 
 article #startExploringToday h2 {
     text-align: center;
+    margin-bottom: 10px;
 }
 
 article #startExploringToday #slogan {
