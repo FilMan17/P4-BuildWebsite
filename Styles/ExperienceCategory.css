@@ -1,0 +1,188 @@
+/*DEVELOPER: Filip Mangoski, IS117-005, Fall, 2024 */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+html {
+    background-color: white;
+    background-image: url(../Images/Background.jpg);
+    background-size: cover;
+}
+
+body {
+    width: auto;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: rgba(192, 194, 236, 0.85);
+    align-items: center;
+}
+
+header div {
+    padding-bottom: 20px;
+}
+
+header div h1 {
+    text-align: center;
+    font-size: 400%;
+    text-decoration: underline;
+}
+
+#nav_menu {
+    display: inline-flex;
+    width: 100%;
+    background-color: rgba(51, 86, 171, 1);
+    height: 60px;
+}
+
+#nav_menu div {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+#nav_menu div a {
+    text-decoration: none;
+    color: white;
+}
+
+#nav_menu div div {
+    display: none;
+    padding-top: 12px ;
+    background-color: rgba(51, 86, 171, 1);
+    z-index: 4;
+}
+
+#nav_menu div div a {
+    padding: 5px 0;
+    border: 1px groove white;
+    z-index: 3;
+}
+
+#nav_menu .border {
+    border-left: 1px groove white;
+    border-right: 1px groove white;
+}
+
+#nav_menu .movedown {
+    padding-top: 10px;
+}
+
+#nav_menu .movedownmore {
+    padding-top: 18px;
+}
+
+#nav_menu .paddingincrease {
+    margin-top: 11px;
+}
+
+#nav_menu div:hover {
+    font-weight: bold ;
+}
+
+#nav_menu div div a:hover {
+    background-color: rgb(38, 38, 158);
+    font-weight: bold;
+}
+
+#nav_menu div:hover > div {
+    display: grid;
+}
+
+main #explanation {
+    display: block;
+    padding-top: 90px;
+    padding-bottom: 20px;
+    border-bottom: 2px dotted black;
+}
+
+main #explanation h2 {
+    text-align: center;
+}
+
+main #explanation p {
+    text-align: justify;
+    padding: 10px 30px 20px 30px;
+    font-size: 110%;
+}
+
+section .bike {
+    margin: 15px 0;
+    border-bottom: 2px dotted black;
+}
+
+section #lastbike {
+    border: none;
+    margin-bottom: 0;
+}
+
+section .category {
+    text-align: center;
+    font-size: 200%;
+}
+
+section .picandspecs {
+    display: inline-flex;
+    margin: 30px 30px 20px 30px;
+}
+
+section .picandspecs img {
+    height: 33%;
+    width: 33%;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin: 0 30px 0 0;
+    background-color: white;
+}
+
+section .bikedescription {
+    margin-right: 5px;
+    padding-right: 20px;
+    width: 50%;
+}
+
+section .bikedescription h4 {
+    text-align: center;
+}
+
+section .bikedescription p{
+    text-align: justify;
+    padding: 10px 20px 0 0;
+}
+
+section .specs {
+    text-align: left;
+}
+
+section .specs ul {
+    padding-top: 10px;
+    list-style-type: none;
+}
+
+section .specs ul li {
+    padding-bottom: 15px;
+}
+
+footer div {
+    background-color: rgba(255, 255, 255, 0.662);
+    padding: 30px 0 45px 0;
+}
+
+footer div span {
+    font-style: italic;
+    margin-left: 50px;
+    border-top: 1px groove grey;
+    padding: 10px 285px 0 10px;
+    color: rgb(26, 26, 26);
+}
+
+footer div span a {
+    color: rgb(26, 26, 26);
+    text-decoration: none;
+    font-weight: bold;
+}
