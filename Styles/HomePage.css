@@ -20,6 +20,7 @@ body {
     max-width: 960px;
     margin: 0 auto;
     background-color: rgba(192, 194, 236, 0.733);
+    align-items: center;
 }
 
 header {
@@ -73,7 +74,7 @@ header {
 
 #nav_menu div div {
     display: none;
-    padding-top: 12px;
+    padding-top: 12px ;
     background-color: rgba(51, 86, 171, 1);
     z-index: 4;
 }
@@ -102,7 +103,7 @@ header {
 }
 
 #nav_menu div:hover {
-    font-weight: bold;
+    font-weight: bold ;
 }
 
 #nav_menu div div a:hover {
@@ -155,7 +156,7 @@ section div div ul {
 }
 
 section div #godownmore {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 section div #image2 {
@@ -165,6 +166,66 @@ section div #image2 {
     display: inline-flex;
     margin-left: auto;
     margin-right: 30px;
+}
+
+main #bootstrapcards {
+    display: inline-flex;
+    margin: 30px 50px 30px 50px;
+    width: 100%;
+}
+
+main #bootstrapcards .card {
+    display: block;
+    width: auto;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.5);
+    margin-right: 30px;
+}
+
+main #bootstrapcards #cardimg {
+    display: block;
+    width: 259px;
+    height: 182px;
+    border: 1px solid black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+main #bootstrapcards .cardtext {
+    background-color: white;
+    height: auto;
+    width: 259px;
+    padding: 10px 0 30px 0;
+    border: 1px solid black;
+}
+
+#bootstrapcards .cardtext h5 {
+    padding-left: 12px;
+    font-size: 120%;
+}
+
+#bootstrapcards .cardtext p {
+    padding: 10px 10px 20px 12px;
+    font-size: 90%;
+    font-style: italic;
+}
+
+#bootstrapcards .cardtext a {
+    margin-left: 12px;
+    margin-top: 20px;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(51, 86, 171, 1);
+    border: 3px solid rgba(51, 86, 171, 1);
+    border-radius: 6px;
+}
+
+#bootstrapcards .cardtext a:hover {
+    background-color: rgb(38, 38, 158);
+    border-color: rgb(38, 38, 158);
 }
 
 article {
@@ -195,4 +256,27 @@ article #startExploringToday h2 {
 article #startExploringToday #slogan {
     text-align: center;
     margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+footer div {
+    background-color: rgba(255, 255, 255, 0.662);
+    padding: 30px 0 45px 0;
+}
+
+footer div span {
+    font-style: italic;
+    margin-left: 50px;
+    border-top: 1px groove grey;
+    padding: 10px 285px 0 10px;
+    color: rgb(26, 26, 26);
+}
+
+footer div span a {
+    color: rgb(26, 26, 26);
+    text-decoration: none;
+    font-weight: bold;
 }
