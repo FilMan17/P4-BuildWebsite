@@ -413,7 +413,7 @@ footer div span a {
     }
 }
 
-@media screen and (max-width: 573px) and (min-width: 5px) {
+@media screen and (max-width: 573px) and (min-width: 543px) {
     main section #image2 {
         position: relative;
         top: 200px;
@@ -771,6 +771,27 @@ footer div span a {
         font-size: 55%;
         padding-right: 70px;
     }
+
+    main #beginning {
+        display: block;
+    }
+    
+    main #beginning img {
+        position: relative;
+        left: 25%;
+        top: -30px !important;
+        height: 50%;
+        width: 50%;
+    }
+
+    main section #godownmore {
+        font-size: 60%;
+    }
+
+    main #image2 {
+        position: relative;
+        top: 45px;
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -789,6 +810,11 @@ footer div span a {
         padding-right: 35px;
         position: relative;
         left: -20px;
+    }
+
+    main #image2 {
+        position: relative;
+        top: 150px;
     }
 }
 
@@ -834,6 +860,16 @@ footer div span a {
     text-decoration: none;
     font-size: 17px;
     display: block;
+}
+
+.topnav .submenu {
+    font-size: 12px !important;
+    padding: 10px 16px;
+    margin-left: 10px;
+}
+
+.topnav .category {
+    text-decoration: underline;
 }
 
 .topnav a.icon {

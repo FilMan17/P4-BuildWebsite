@@ -219,6 +219,16 @@ footer div span a {
     display: block;
 }
 
+.topnav .submenu {
+    font-size: 12px !important;
+    padding: 10px 16px;
+    margin-left: 10px;
+}
+
+.topnav .category {
+    text-decoration: underline;
+}
+
 .topnav a.icon {
     background: black;
     display: block;
